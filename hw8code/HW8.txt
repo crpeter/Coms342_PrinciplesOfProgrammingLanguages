@@ -1,0 +1,25 @@
+1 
+a)
+(deref (20)) //check type for deref
+
+B)
+(set! (ref : bool #f) 0) //check type for assign
+
+2
+a)
+(car (car #t)) // check type for car
+
+b)
+(list: bool (car 2 2)) //check type for list
+
+3
+(+ #t #f) //check compound arith exp
+
+4
+(>(list: num #t #f) 67) //check type for binary exp
+
+5
+(if 5 #t 67) //check type for if
+
+6
+(#f #t) check for func type in operator for call
